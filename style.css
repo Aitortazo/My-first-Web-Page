@@ -3,20 +3,20 @@ html {
 }
 a{
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
     font-size: large;
     font-weight: bold;
 }
 li a:hover {
     font-size:120%;
-    color: blueviolet;
+    color: grey;
 }
 body {
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    background-image: url("blur-background-6z.jpg");
 }
 
 #header {
@@ -28,6 +28,8 @@ body {
     text-align: center;
     font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
     font-size: x-large;
+    color: white;
+    letter-spacing: 10px;
 }
 #list ul {
     list-style-type: None;
@@ -43,3 +45,14 @@ ul.navega li {
     display: inline;
     padding-right: 0.5em;
   }
+
+#foot {
+    color: black;
+    font-weight: bold;
+    text-align: right;
+    bottom: 0px;
+    width: 98.7%;
+    position: absolute;
+    margin: 0;
+    padding: 10px;
+}
