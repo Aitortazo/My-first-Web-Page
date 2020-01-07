@@ -1,58 +1,126 @@
 html {
     height: 100%;
 }
-a{
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: large;
-    font-weight: bold;
-}
-li a:hover {
-    font-size:120%;
-    color: grey;
-}
-body {
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image: url("blur-background-6z.jpg");
-}
 
-#header {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
-    font-size: x-large;
-    color: white;
-    letter-spacing: 10px;
-}
-#list ul {
-    list-style-type: None;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-}
-ul.navega li {
-    display: inline;
-    padding-right: 0.5em;
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
   }
 
-#foot {
-    color: black;
-    font-weight: bold;
-    text-align: right;
-    bottom: 0px;
-    width: 98.7%;
-    position: absolute;
-    margin: 0;
-    padding: 10px;
+  @media screen and (min-width:320px) and (max-width:640px) {
+    /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: small;
+        font-weight: bold;
+    }
+    li a:hover {
+        font-size:120%;
+        color: grey;
+    }
+    body {
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("blur-background-6z.jpg");
+    }
+    #header {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+        font-size: 20px;
+        color: white;
+        letter-spacing: 2px;
+    }
+    #list ul {
+        list-style-type: None;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+    }
+    ul.navega li {
+        display: inline;
+        padding-right: 0.5em;
+      }
+    #foot {
+        color: black;
+        font-weight: bold;
+        text-align: right;
+        bottom: 0px;
+        width: 98.7%;
+        position: absolute;
+        margin: 0;
+        padding: 10px;
+        font-size: 10px;
+  }
+}
+@media screen and (min-width:640px) {
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: large;
+        font-weight: bold;
+        font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    }
+    li a:hover {
+        font-size:120%;
+        color: grey;
+    }
+    body {
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("blur-background-6z.jpg");
+    }
+    #header {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+        font-size: x-large;
+        color: white;
+        letter-spacing: 10px;
+    }
+    #list ul {
+        list-style-type: None;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        border: 3px solid #000;
+        background-color: darkslategrey;
+    }
+    ul.navega li {
+        display: inline;
+        padding-right: 0.5em;
+      }
+    #foot {
+        color: black;
+        font-weight: bold;
+        text-align: right;
+        bottom: 0px;
+        width: 98.7%;
+        position: absolute;
+        margin: 0;
+        padding: 10px;
+        font-size: 10px;
+  }
 }
